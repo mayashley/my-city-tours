@@ -1,0 +1,42 @@
+.navBar {
+  background-color: rgba(246, 246, 246, 0.644);
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+}
+
+h4 {
+  color: rgba(31, 158, 14, 0.979);
+  /* padding: 0 6px; */
+  font-size: 1.4rem;
+  /* border: 1px solid purple; */
+}
+h4 span {
+  color: rgb(59, 59, 59);
+}
+
+.nav-links {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat (3, fr);
+  text-align: center;
+  display: flex;
+  /* border: 1px solid red; */
+}
+
+.nav-link {
+  color: rgb(59, 59, 59);
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0 10px;
+}
+.nav-link:hover {
+  transition: all 0.3s linear;
+  color: rgba(31, 158, 14, 0.979);
+}
+
+.active {
+    color: rgba(31, 158, 14, 0.979);
+}

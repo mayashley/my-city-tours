@@ -1,0 +1,9 @@
+.tourList {
+    /* border: 1px solid red; */
+    width: 70vw;
+max-width: 1170px;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+margin: 0 auto;
+}

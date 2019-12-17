@@ -1,0 +1,62 @@
+
+
+.tour {
+  background-color: rgb(233, 233, 233);
+  width:100%;
+  margin: 2rem 0;
+  box-shadow: 1px 1px 10px rgb(29, 29, 29);
+}
+
+.tour img {
+ width: 100%;
+  display: block;
+  min-height: 13rem;
+  overflow: hidden;
+  object-fit: cover;
+  /* border: 1px blue solid */
+}
+
+.tour-info {
+  /* border: 1px solid pink; */
+  display: flex;
+  justify-content: flex-start;
+flex-direction: column;
+padding: .5rem;
+}
+
+.tour-info h2 {
+    color:rgba(31, 158, 14, 0.979);
+text-transform: uppercase;
+}
+
+.img-container {
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    display:block;
+   top:2%;
+   right: 2%;
+    color:rgba(31, 158, 14, 0.979);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    opacity:0;
+}
+.img-container:hover .close-btn {
+    opacity:1;
+}
+
+@media screen and (min-width: 768px) {
+  .tour {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-column-gap: 1rem;
+  }
+  .tour-info {
+      text-align:left;
+  }
+}
+
+/* grid will only work with crome and firefox/it will not work with explorer and will be broken */
