@@ -28,6 +28,22 @@ padding: .5rem;
     color:rgba(31, 158, 14, 0.979);
 text-transform: uppercase;
 }
+.tour-info h3 {
+ color:rgb(100, 100, 100);
+text-transform: capitalize;
+}
+.tour-info h5 {
+  color: rgb(59, 59, 59);
+}
+.tour-info span {
+  color: rgba(31, 158, 14, 0.979);
+  font-size: 1rem;
+}
+
+.tour-info p {
+  color: rgb(59, 59, 59);
+  
+}
 
 .img-container {
     position: relative;

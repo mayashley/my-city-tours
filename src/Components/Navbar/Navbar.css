@@ -38,5 +38,23 @@ h4 span {
 }
 
 .active {
-    color: rgba(31, 158, 14, 0.979);
+  color: rgba(31, 158, 14, 0.979);
+}
+
+@media screen and (min-width: 768px) {
+  .tour {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-column-gap: 1rem;
+  }
+  .tour-info {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .nav-link {
+    font-size: 1.1rem;
+    padding: 0 4px;
+  }
 }
